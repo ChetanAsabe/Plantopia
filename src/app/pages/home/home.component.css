@@ -1,0 +1,6 @@
+.main-container {
+    background-image: url('../../../assets/background.png');
+    background-position: center 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}   

@@ -1,0 +1,13 @@
+<div class="flex flex-col gap-2">
+  <div class="bg-[#f6f6f6] rounded-lg group relative overflow-hidden">
+    <img
+      [src]="equipment.image"
+      alt=""
+      class="hover:scale-110 ease-in duration-300"
+    />
+  </div>
+  <div>
+    <h3 class="font-bold mb-0">{{ equipment.name }}</h3>
+    <p class="font-medium text-lg text-[#007537]">${{ equipment.price }}</p>
+  </div>
+</div>

@@ -1,11 +1,21 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { ButtonModule } from 'primeng/button';
+import { HomeComponent } from './pages/home/home.component';
+import { ProductListingsComponent } from './pages/product-listings/product-listings.component';
+import { CareComponent } from './pages/care/care.component';
+
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  standalone: true,
+  imports: [
+    ButtonModule,
+    HomeComponent,
+    ProductListingsComponent,
+    CareComponent,
+  ],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
 })
 export class AppComponent {
   title = 'Plantopia';
